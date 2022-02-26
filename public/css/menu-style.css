@@ -1,0 +1,98 @@
+
+container{
+    height: calc(100vh - 56px);
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+aside{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 240px;
+    padding: 8px 16px 0px 0px;
+    background-color: #ffffff;
+}
+
+.elements{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    padding: 0px 0px 0px 24px;
+
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+}
+
+.more-icon{
+    margin-right: 12px;
+}
+
+.menu-container hr{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 1px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+}
+
+.menu-container h3{
+    display: block;
+    padding: 8px 24px;
+    margin-top: 8px;
+    color: #8a8a8a;
+    font-size: 12px;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+.elements:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.elements .active{
+    background-color: rgb(238, 0, 0);
+}
+
+.elements i{
+    margin-right: 20px;
+}
+
+.elements-channels{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    padding: 0px 0px 0px 24px;
+
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+}
+
+.elements-channels:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.elements-channels img{
+    width: 25px;
+    height: auto;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+
+.live {
+    display: flex;
+}
+
+.yt-live{
+    margin-left: 88px;
+    width: 20px;
+    color: rgb(4, 97, 173);
+}

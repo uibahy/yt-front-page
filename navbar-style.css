@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.material-icons-outlined {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px 0 16px;
+    background-color: rgb(255, 255, 255);
+    border: 8px;
+    border-color: black;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-section i {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 110px;
+    padding: 18px 14px 18px 16px;
+}
+
+/* ////////// */
+
+.mid-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-section form{
+    height: 45px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-section form input {
+    width: 85%;
+    height: 90%;
+    padding: 0 0 0 10px;
+    border: 1px solid rgb(226, 226, 226);
+    font-family: "Roboto";
+    border-right: 0;
+    cursor: text;
+}
+
+.mid-section form button {
+    font-size: 2px;
+    width: 15%;
+    height: 90%;
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.mid-section form input:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+.mid-section form input:focus {
+    outline: none;
+}
+
+.mid-section form button:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.mid-section a i{
+    height: 34px;
+    width: 34px;
+    font-size: 19px;
+    padding: 8px 8px 6.8px 8px;
+    margin-left: 12px;
+    
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+/* ////////// */
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.right-section a{
+    color: rgb(32, 32, 32);
+    margin: 0 12px;
+}
+
+.right-section img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+
+
